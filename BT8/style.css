@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+width: 900px;
+height: auto;
+margin: 20px auto;
+border: 1px solid rgb(225, 225, 225);
+
+line-height: 40px;
+}
+
+.c_item1{
+    color: darkturquoise;
+    background-color: slategrey;
+    padding: 10px;
+}
+
+.arrow{
+    position: absolute;
+    right: 320px;
+}
+
+.content{
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.content p span:first-child{
+    font-weight: bold;
+}
+
+.content p span:last-child{
+    color: pink;
+}
+
+.c_item2, .c_item3{
+    padding-left: 10px;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+

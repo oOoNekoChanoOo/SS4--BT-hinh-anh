@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 400px;
+    height: 700px;
+    border: 1px solid gray;
+    border-radius: 200px 200px 20px 20px;
+    margin: 30px auto;
+}
+.content{
+    width: 360px;
+    height: 365px;
+    background-color: rgb(138, 16, 16);
+    border: 1px solid rgb(138, 16, 16);
+    border-radius: 200px 200px 40px 40px;
+    margin: 20px auto;
+}
+.content>img{
+    width: 100%;
+    height: auto;
+}
+
+div>p{
+    line-height: 40px;
+    padding-left: 20px;
+}
+h5{
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+}
